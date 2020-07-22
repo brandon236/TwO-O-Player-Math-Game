@@ -12,6 +12,7 @@ while p1.lives > 0 && p2.lives > 0
   puts ""
   print ">"
   answer = $stdin.gets.chomp
+  puts ""
   actual = newQuestion.result.to_s
   if answer == actual
     puts "#{currentPlayer.name}: YES! You are correct."
